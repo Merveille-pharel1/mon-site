@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --first-font: "Montserrat", sans-serif;
+  --second-font: "Playwrite GB J";
+  --primary-text: #e4e8ea;
+  --secondary-text: #0f1108;
+  --accent-text: #00f6ed;
+  --main-background: #242426;
+  --second--background: #4f5058;
+  --color-alpha1: rgba(255, 255, 255, 0.1);
+  --header-height: 5rem;
+  --size-footer-height: 15rem;
+  --size-scare: 5rem;
+  --taille-des-services: 400px;
+  --color-alpha2: rgba(0, 0, 0, 0.5);
+  --color-alpha3: rgba(0, 0, 0, 0.3);
+}

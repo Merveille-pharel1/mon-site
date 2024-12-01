@@ -1,0 +1,258 @@
+@import url("./variables.css");
+
+body {
+  font-family: var(--first-font);
+  color: var(--primary-text);
+}
+
+.font-secondaire {
+  font-family: var(--second-font);
+  color: var(--accent-text);
+  text-shadow: 1.5px 1px 1px var(--primary-text);
+}
+
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.colonne {
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.parent-height {
+  height: 100%;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.MG1 {
+  margin: 1rem 0;
+}
+
+.PD1 {
+  padding: 1rem;
+}
+
+.PD-top {
+  padding-top: 5.5rem;
+}
+
+header {
+  height: var(--header-height);
+  border: 1px solid white;
+  justify-content: space-between;
+  background-color: var(--color-alpha2);
+  position: fixed;
+  width: 100vw;
+}
+
+header h2 {
+  margin-left: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: large;
+  display: inline-block;
+  padding: 1.7rem;
+}
+
+a:hover {
+  background-color: var(--second--background);
+}
+
+#main {
+  height: 100vh;
+  background: url("../images/main.png") center center/cover;
+}
+
+.container {
+  width: 500px;
+}
+
+.logo {
+  width: calc(2 * var(--size-scare) + 50px);
+  margin: auto;
+}
+
+.carre {
+  height: var(--size-scare);
+  width: var(--size-scare);
+  background-color: var(--accent-text);
+  margin: 4px;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.59);
+}
+
+.petit-carre {
+  width: calc(var(--size-scare) / 3);
+  height: calc(var(--size-scare) / 3);
+  background-color: var(--primary-text);
+}
+
+.rotate {
+  display: flex;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  transform: rotate(45deg);
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.boutton1 {
+  color: var(--secondary-text);
+  background-color: var(--primary-text);
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+  font-family: var(--second-font);
+  font-weight: bold;
+}
+
+#service {
+  background-color: var(--main-background);
+  height: 55%;
+}
+
+#service h2 {
+  font-weight: 100;
+  padding-bottom: 2rem;
+}
+
+.containers {
+  width: calc(var(--taille-des-services) * 3 + 24px);
+}
+
+.second-container {
+  width: var(--taille-des-services);
+  background-color: var(--color-alpha1);
+  margin: 0 12px 12px 0;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.emogie {
+  height: 80px;
+}
+
+#equipe {
+  height: 45%;
+}
+
+.team {
+  width: 50%;
+  background: url(../images/team.webp) no-repeat center center/cover;
+}
+
+.right-message {
+  width: 50%;
+  background-color: var(--second--background);
+  padding: 2rem;
+  text-align: justify;
+}
+
+.titre2 {
+  font-size: 34px;
+}
+
+#temoignage {
+  /* height: 100vh; */
+  color: var(--secondary-text);
+  background-color: var(--primary-text);
+}
+
+.commentaire {
+  width: 70%;
+  min-height: 160px;
+  color: inherit;
+  background-color: white;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 6px;
+}
+
+.commentaire img {
+  width: 4rem;
+}
+
+.commentaire div {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+#temoignage h2 {
+  padding: 3rem 0 0.6rem 0;
+  font-weight: normal;
+}
+
+footer {
+  height: var(--size-footer-height);
+  background-color: var(--main-background);
+  justify-content: center;
+  align-items: center;
+}
+
+.liste-services {
+  display: grid;
+  height: 55%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+footer div p {
+  text-align: center;
+}
+
+footer div h4 {
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 3px;
+  border: none;
+}
+
+.boutton2 {
+  padding: 4px 12px;
+  background-color: var(--accent-text);
+  border: none;
+}
+
+.abonnement {
+  border: 1px solid white;
+}
