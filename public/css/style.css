@@ -245,6 +245,7 @@ footer div h4 {
 input {
   padding: 3px;
   border: none;
+  border-radius: 0;
 }
 
 .boutton2 {
