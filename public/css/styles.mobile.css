@@ -19,8 +19,8 @@
     font-size: large;
   }
 
-  .containers {
-    width: 80%;
+  .containers,
+  footer {
     flex-direction: column;
   }
 
@@ -34,10 +34,10 @@
 
   .team {
     height: 350px;
-    width: 100vw;
   }
 
-  .right-message {
+  .right-message,
+  .team {
     width: 100vw;
   }
 
@@ -52,20 +52,27 @@
     padding: 2rem 0 0.6rem 0;
   }
 
+  .containers,
   .commentaire {
     width: 80%;
   }
 
   footer {
+    height: unset;
     font-size: 10px;
-    flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
   }
   .liste-services {
-    gap: 0.8rem;
-    margin-bottom: 1.5rem;
+    margin: 1rem;
+    grid-template-columns: auto;
   }
+
   footer div:nth-child(2) {
-    margin-left: 1rem;
+    margin: 0 0 1rem 1rem;
+  }
+
+  footer div p {
+    text-align: left;
   }
 }

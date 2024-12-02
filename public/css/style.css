@@ -220,6 +220,7 @@ h1 {
 }
 
 footer {
+  display: flex;
   height: var(--size-footer-height);
   background-color: var(--main-background);
   justify-content: center;
@@ -245,7 +246,6 @@ footer div h4 {
 input {
   padding: 3px;
   border: none;
-  border-radius: 0;
 }
 
 .boutton2 {
