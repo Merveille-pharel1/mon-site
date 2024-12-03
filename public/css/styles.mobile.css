@@ -75,4 +75,7 @@
   footer div p {
     text-align: left;
   }
+  footer div p:nth-child(4) {
+    display: none;
+  }
 }
