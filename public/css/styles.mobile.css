@@ -4,11 +4,31 @@
   }
 
   header {
-    position: relative;
+    position: absolute;
+    top: 0;
+    height: unset;
   }
 
-  nav {
-    display: none;
+  header h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+  }
+
+  header,
+  nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li a {
+    padding: 1.2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  #main {
+    padding-top: 20rem;
   }
 
   .container {
@@ -29,11 +49,11 @@
   }
 
   #equipe {
-    display: inline-block;
+    flex-direction: column-reverse;
   }
 
   .team {
-    height: 350px;
+    height: 250px;
   }
 
   .right-message,
@@ -57,25 +77,43 @@
     width: 80%;
   }
 
+  .commentaire {
+    flex-direction: column;
+  }
+
+  .commentaire:nth-child(2n + 1) {
+    flex-direction: column-reverse;
+  }
+
   footer {
     height: unset;
     font-size: 10px;
     justify-content: flex-start;
     align-items: flex-start;
   }
+
   .liste-services {
     margin: 1rem;
-    grid-template-columns: auto;
-  }
-
-  footer div:nth-child(2) {
-    margin: 0 0 1rem 1rem;
+    grid-template-rows: repeat(14, 1fr);
+    width: 96%;
   }
 
   footer div p {
-    text-align: left;
+    font-size: 25px;
+    padding: 1rem;
+    border-bottom: 1px solid white;
   }
-  footer div p:nth-child(4) {
+
+  .abonnement {
+    font-size: 20px;
+  }
+
+  input {
+    width: 210px;
+  }
+
+  footer div p:nth-child(13),
+  p:nth-child(16) {
     display: none;
   }
 }
