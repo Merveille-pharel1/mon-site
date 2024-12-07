@@ -112,6 +112,12 @@
     width: 210px;
   }
 
+  .boutton2 {
+    font-size: 18px;
+    height: 2rem;
+    width: 100px;
+  }
+
   footer div p:nth-child(13),
   p:nth-child(16) {
     display: none;
