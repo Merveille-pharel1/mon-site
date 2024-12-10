@@ -148,7 +148,7 @@ h1 {
 
 #service {
   background-color: var(--main-background);
-  height: 55%;
+  height: 55vh;
 }
 
 #service h2 {
@@ -173,7 +173,7 @@ h1 {
 }
 
 #equipe {
-  height: 45%;
+  height: 45vh;
 }
 
 .team {
